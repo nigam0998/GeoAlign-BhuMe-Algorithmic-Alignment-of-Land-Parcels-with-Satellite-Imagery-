@@ -1,11 +1,11 @@
-# TerraAlign: Satellite-Guided Cadastral Boundary Correction
+# GeoAlign-BhuMe: Algorithmic Alignment of Land Parcels with Satellite Imagery
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![GIS - GeoPandas](https://img.shields.io/badge/GIS-GeoPandas%20%7C%20Rasterio-green.svg)](https://geopandas.org/)
 [![Interpolation - IDW](https://img.shields.io/badge/Math-IDW%20Interpolation-orange.svg)](https://en.wikipedia.org/wiki/Inverse_distance_weighting)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official land registry outlines (cadastral maps) in India often suffer from historical georeferencing shifts, sitting several meters off actual on-the-ground field boundaries. **TerraAlign** is a geospatial pipeline designed to correct this cadastral drift by combining official land parcel data with high-resolution satellite imagery and local spatial interpolation.
+Official land registry outlines (cadastral maps) in India often suffer from historical georeferencing shifts, sitting several meters off actual on-the-ground field boundaries. **GeoAlign-BhuMe** is a geospatial pipeline designed to correct this cadastral drift by combining official land parcel data with high-resolution satellite imagery and local spatial interpolation.
 
 ---
 
@@ -74,8 +74,8 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/terra-align.git
-   cd terra-align/bhume-starter-kit
+   git clone https://github.com/nigam0998/GeoAlign-BhuMe-Algorithmic-Alignment-of-Land-Parcels-with-Satellite-Imagery-.git
+   cd GeoAlign-BhuMe-Algorithmic-Alignment-of-Land-Parcels-with-Satellite-Imagery-
    ```
 
 2. Sync the dependencies and set up the virtual environment:
