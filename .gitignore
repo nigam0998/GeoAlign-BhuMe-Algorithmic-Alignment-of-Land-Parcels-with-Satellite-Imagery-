@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local analysis/outputs
+boundary_analysis/
+truth_comparisons/
+visualizations/
+
+# Data directories (ignore raw datasets/imagery)
+data/
+!data/README.md
+
+# IDE and local configuration
+.sixth/
+.idea/
+.vscode/
+.DS_Store
+*.log
